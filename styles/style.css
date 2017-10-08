@@ -35,6 +35,8 @@ body {
 /* Buttons */
 .btn {
 	border-radius: 0.15em;
+	
+	
 }
 
 /* Alert */
@@ -65,8 +67,29 @@ body {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	background-image: url("/home/ameer/bikes-for-refugees/images/header-bike.jpg");
+	position: relative;
+	filter: grayscale(70%);
+	
+	
+	
+	
+}
+.jumbotron:before{
+	content: "";
+	background: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	filter: grayscale(40%);
+	background: rgba(0, 3,4,0.3);
+	
+	
 }
 
+ 
+.
 /* Headings */
 .heading-underline {
 	position: relative;
@@ -112,7 +135,7 @@ body {
 
 .article-read-more .fa {
 	margin-right: 0.5em;
-	color: #ce5f31;
+	color: rgba(206, 94, 49, 0.98);
 }
 
 .article-read-more:last-child {
@@ -125,3 +148,13 @@ body {
 	   max-height: 80px;
 	}
 }
+#orange{
+ background-color: #FF3C00;
+}
+ .lead{
+	 color: white;
+ }
+ .img-fluid{
+	 width: 100px;
+	 position: relative;
+ }
