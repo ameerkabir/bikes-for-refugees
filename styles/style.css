@@ -66,27 +66,16 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-	border-radius: 0;
-	background-image: url("/home/ameer/bikes-for-refugees/images/header-bike.jpg");
+	
 	position: relative;
-	filter: grayscale(70%);
-	
-	
-	
+	background: linear-gradient(rgba(0, 0, 0, 0.82), #000000e6), url("/home/ameer/bikes-for-refugees/images/header-bike.jpg");
 	
 }
-.jumbotron:before{
-	content: "";
-	background: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right:0;
-	filter: grayscale(40%);
-	background: rgba(0, 3,4,0.3);
 	
 	
-}
+	
+
+
 
  
 .
@@ -150,6 +139,7 @@ body {
 }
 #orange{
  background-color: #FF3C00;
+ border: none;
 }
  .lead{
 	 color: white;
